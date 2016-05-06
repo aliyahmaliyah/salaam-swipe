@@ -1,0 +1,30 @@
+{
+  "name": "salaam_swipe",
+  "version": "1.0.0",
+  "description": "SS site re-design",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aliyahmaliyah/salaam-swipe.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "react",
+    "jsx",
+    "babel",
+    "webpack"
+  ],
+  "author": "aliyahmaliyah (aliyah@aliyahmaliyah.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aliyahmaliyah/salaam-swipe/issues"
+  },
+  "homepage": "https://github.com/aliyahmaliyah/salaam-swipe#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
