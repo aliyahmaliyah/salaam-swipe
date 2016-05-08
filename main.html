@@ -13,11 +13,13 @@
     <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="src/css/animate.min.css">
     <link rel="shortcut icon" type="image/png" href="src/images/favicon.png"/>
+    
   </head>
-  <body>
+  <body data-spy='scroll' data-target='#navbar' data-offset='70'>
     <!--Navigation-->
-    <div class='navbar navbar-default navbar-fixed-top' role='navigation'>
+    <div id='navbar' class='navbar navbar-default navbar-fixed-top' role='navigation'>
         <div class='container'>
             <div class='navbar-header'>
                 <button type='button' class='navbar-toggle' data-toggle='collapse' data-target='.navbar-collapse'>
@@ -32,10 +34,10 @@
             </div>
             <div class='navbar-collapse collapse'>
                 <ul class='nav navbar-nav navbar-right'>
-                    <li><a href='#'>The App</a></li>
-                    <li><a href='#'>News</a></li>
-                    <li><a href='#'>Fine Print</a></li>
-                    <li><a href='#'>Contact</a></li>
+                    <li><a href='#app'>The App</a></li>
+                    <li><a href='#news'>News</a></li>
+                    <li><a href='#finePrint'>Fine Print</a></li>
+                    <li><a href='#contact'>Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -58,7 +60,7 @@
         </div>
     </div>
     <!--The App-->
-    <div class='theApp'>
+    <div class='theApp' id='app'>
         <div class='container'>
             <div class='row'>
             <div class='col-lg-12 col-md-12'>
@@ -74,15 +76,15 @@
             </div>
             </div>
             <div class='row testimonials'>
-                <div class='col-lg-4 col-md-4'>
+                <div class='col-lg-4 col-md-4 wow fadeIn'>
                     <img src='src/images/profilePic.jpeg' class='img-circle'/>
                     <blockquote><p><em>"Cray twee chillwave DIY, meditation cornhole chartreuse synth dreamcatcher letterpress sriracha blog cronut you probably haven't heard of them."<footer>Name of Publication</footer></em></p></blockquote>
                 </div>
-                <div class='col-lg-4 col-md-4'>
+                <div class='col-lg-4 col-md-4 wow fadeIn' data-wow-delay="1s">
                     <img src='src/images/profilePic.jpeg' class='img-circle'/>
                     <blockquote><p><em>"Literally food truck irony, locavore chambray vegan disrupt kitsch man bun williamsburg before they sold out."<footer>Name of Publication</footer></em></p></blockquote>
                 </div>
-                <div class='col-lg-4 col-md-4'>
+                <div class='col-lg-4 col-md-4 wow fadeIn' data-wow-delay='2s'>
                     <img src='src/images/profilePic.jpeg' class='img-circle'/>
                     <blockquote><p><em>"Tousled mixtape 90's sustainable microdosing direct trade, fingerstache bespoke artisan. Pabst kogi street art, offal messenger bag flannel plaid yuccie swag XOXO."<footer>Name of Publication</footer></em></p></blockquote>
                 </div>
@@ -90,7 +92,7 @@
         </div>
     </div>
     <!--News-->
-    <div class='news'>
+    <div class='news' id='news'>
         <div class='container'>
             <div class='row'>
             <div class='col-lg-12 col-md-12'>
@@ -100,7 +102,7 @@
         </div>
     </div>
     <!--Fine Print-->
-    <div class='finePrint'>
+    <div class='finePrint' id='finePrint'>
         <div class='container'>
             <div class='row'>
             <div class='col-lg-12 col-md-12'>
@@ -113,13 +115,13 @@
             </div>    
             </div>
             <div class='row'>
-            <div class='col-lg-6 col-md-6'>
+            <div class='col-lg-6 col-md-6 wow slideInLeft'>
                 <a class="btn btn-default" href="privacy.html">
                     <i class="fa fa-user-secret" aria-hidden="true"></i>
                     <p>Privacy Policy</p>
                 </a>
             </div>
-            <div class='col-lg-6 col-md-6'>
+            <div class='col-lg-6 col-md-6 wow slideInRight'>
                 <a class="btn btn-default" href="terms.html">
                     <i class="fa fa-file-text" aria-hidden="true"></i>
                     <p>Terms of Use</p>
@@ -130,7 +132,7 @@
         </div>
     </div>
     <!--Contact-->
-    <div class='contact'>
+    <div class='contact' id='contact'>
         <div class='container'>
             <div class='row'>
             <div class='col-lg-12 col-md-12'>
@@ -181,5 +183,9 @@
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/wowjs/dist/wow.min.js"></script>
+        <script>
+        new WOW().init();
+        </script>
   </body>
 </html>

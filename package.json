@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/aliyahmaliyah/salaam-swipe#readme",
   "dependencies": {
-    "bootstrap": "^3.3.6"
+    "bootstrap": "^3.3.6",
+    "hexo-cli": "^1.0.1"
   }
 }
