@@ -13,11 +13,13 @@
     <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="src/css/animate.min.css">
     <link rel="shortcut icon" type="image/png" href="src/images/favicon.png"/>
+
   </head>
-  <body>
+  <body data-spy='scroll' data-target='#navbar' data-offset='70'>
     <!--Navigation-->
-    <div class='navbar navbar-default navbar-fixed-top' role='navigation'>
+    <div id='navbar' class='navbar navbar-default navbar-fixed-top' role='navigation'>
         <div class='container'>
             <div class='navbar-header'>
                 <button type='button' class='navbar-toggle' data-toggle='collapse' data-target='.navbar-collapse'>
@@ -32,10 +34,10 @@
             </div>
             <div class='navbar-collapse collapse'>
                 <ul class='nav navbar-nav navbar-right'>
-                    <li><a href='#'>The App</a></li>
-                    <li><a href='#'>News</a></li>
-                    <li><a href='#'>Fine Print</a></li>
-                    <li><a href='#'>Contact</a></li>
+                    <li><a href='#app'>The App</a></li>
+                    <li><a href='#news'>News</a></li>
+                    <li><a href='#finePrint'>Fine Print</a></li>
+                    <li><a href='#contact'>Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -58,7 +60,7 @@
         </div>
     </div>
     <!--The App-->
-    <div class='theApp'>
+    <div class='theApp' id='app'>
         <div class='container'>
             <div class='row'>
             <div class='col-lg-12 col-md-12'>
@@ -74,33 +76,36 @@
             </div>
             </div>
             <div class='row testimonials'>
-                <div class='col-lg-4 col-md-4'>
-                    <img src='src/images/profilePic.jpeg' class='img-circle'/>
-                    <blockquote><p><em>"Cray twee chillwave DIY, meditation cornhole chartreuse synth dreamcatcher letterpress sriracha blog cronut you probably haven't heard of them."<footer>Name of Publication</footer></em></p></blockquote>
+                <div class='col-lg-4 col-md-4 wow fadeIn'>
+                    <img src='src/images/toronto-star-logo.png' class='img-responsive torontoStar'/>
+                    <blockquote><p><em>"...[I]t has other features that will help Muslims navigate the messy world of online dating, allowing people to indicate their denomination, level of religious devotion and whether they’re looking for someone who is more liberal or conservative."<footer>Toronto Star</footer></em></p></blockquote>
                 </div>
-                <div class='col-lg-4 col-md-4'>
-                    <img src='src/images/profilePic.jpeg' class='img-circle'/>
-                    <blockquote><p><em>"Literally food truck irony, locavore chambray vegan disrupt kitsch man bun williamsburg before they sold out."<footer>Name of Publication</footer></em></p></blockquote>
+                <div class='col-lg-4 col-md-4 wow fadeIn' data-wow-delay="1s">
+                    <img src='src/images/IBT.png' class='img-responsive IBT'/>
+                    <blockquote><p><em>"In a world where families have traditionally set up introductions between males and females, Salaam Swipe provides a detour, if not an escape, from such societal norms."<footer>International Business Times</footer></em></p></blockquote>
                 </div>
-                <div class='col-lg-4 col-md-4'>
-                    <img src='src/images/profilePic.jpeg' class='img-circle'/>
-                    <blockquote><p><em>"Tousled mixtape 90's sustainable microdosing direct trade, fingerstache bespoke artisan. Pabst kogi street art, offal messenger bag flannel plaid yuccie swag XOXO."<footer>Name of Publication</footer></em></p></blockquote>
+                <div class='col-lg-4 col-md-4 wow fadeIn' data-wow-delay='2s'>
+                    <img src='src/images/al-arabiya.jpeg' class='img-responsive arabiya'/>
+                    <blockquote><p><em>"Salaam Swipe allows people to specify whether they are liberal, moderate, or conservative – as well as being Sunni, Shia or “just Muslim” – and filter their potential matches by the same criteria."<footer>Al Arabiya English</footer></em></p></blockquote>
                 </div>
             </div>
         </div>
     </div>
     <!--News-->
-    <div class='news'>
+    <div class='news' id='news'>
         <div class='container'>
             <div class='row'>
             <div class='col-lg-12 col-md-12'>
                 <h1>News</h1>
+                <div class='col-lg-12 col-md-12'>
+                  <a class="btn btn-default" href="/news" role="button">Read More</a>
+                </div>
             </div>
             </div>
         </div>
     </div>
     <!--Fine Print-->
-    <div class='finePrint'>
+    <div class='finePrint' id='finePrint'>
         <div class='container'>
             <div class='row'>
             <div class='col-lg-12 col-md-12'>
@@ -110,27 +115,27 @@
             <div class='row'>
             <div class='col-lg-12 col-md-12'>
                 <p><em>We want to keep you and your information safe. Learn more about our Privacy Policy and our Terms of Use.</em></p>
-            </div>    
+            </div>
             </div>
             <div class='row'>
-            <div class='col-lg-6 col-md-6'>
+            <div class='col-lg-6 col-md-6 wow slideInLeft' data-wow-delay='1s'>
                 <a class="btn btn-default" href="privacy.html">
                     <i class="fa fa-user-secret" aria-hidden="true"></i>
                     <p>Privacy Policy</p>
                 </a>
             </div>
-            <div class='col-lg-6 col-md-6'>
+            <div class='col-lg-6 col-md-6 wow slideInRight' data-wow-delay='1s'>
                 <a class="btn btn-default" href="terms.html">
                     <i class="fa fa-file-text" aria-hidden="true"></i>
                     <p>Terms of Use</p>
                 </a>
             </div>
             </div>
-                
+
         </div>
     </div>
     <!--Contact-->
-    <div class='contact'>
+    <div class='contact' id='contact'>
         <div class='container'>
             <div class='row'>
             <div class='col-lg-12 col-md-12'>
@@ -138,7 +143,7 @@
                 <p>Have feedback? Looking for an interview? Fill out the form below and we'll be in touch ASAP.</p>
             </div>
             </div>
-            <form enctype='text/plain' method='POST' action='mailto:aliyah@aliyahmaliyah.com'>
+            <form enctype='text/plain' method='POST' action='mailto:info@salaamswipe.com'>
                 <div class='form-group'>
                     <label for='name'>Name</label>
                     <input type='text' id='formName' class='form-control' placeholder='Name'>
@@ -169,7 +174,7 @@
                 <h1>Follow us!</h1>
                 <ul class='list-inline'>
                     <li><a href='http://facebook.com/salaamswipe'><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a></li>
-                    <li><a href='http://twitter.com/salaamswipe'><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></i></a></li>
+                    <li><a href='http://twitter.com/salaam_swipe'><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></i></a></li>
                 </ul>
             </div>
             <div class='col-lg-4 col-md-4'>
@@ -181,5 +186,9 @@
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/wowjs/dist/wow.min.js"></script>
+        <script>
+        new WOW().init();
+        </script>
   </body>
 </html>

@@ -20,6 +20,9 @@
     padding-top: 5px;
     padding-bottom: 5px;
 }
+.navbar-default .nav li.active a{
+    background-color: #148682 !important;
+}
 
 /*Header*/
 .header{
@@ -110,6 +113,17 @@
 .testimonials p{
     font-size: 0.8em;
     color: #b9b9b9;
+}
+
+.testimonials .torontoStar{
+    width: 250px;
+    margin-top: 20px
+}
+.testimonials .IBT  {
+    width: 150px;
+}
+.testimonials .arabiya{
+    height: 150px;
 }
 
 /*News*/
