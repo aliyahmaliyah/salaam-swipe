@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Salaam Swipe
-subtitle: Changing the Way We Meet One Another
+title: News
+subtitle: See what's up with Salaam Swipe!
 description:
-author: Khalil Jessa
+author: Salaam Swipe
 language: en
 timezone: America/Los_Angeles
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://salaamswipe.com/news
-root: /
+root: /news
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -63,7 +63,22 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: bootstrap-blog
+
+theme_config:
+  # Header
+  navbar_brand: <img src="../src/images/salaam_swipe_logo.png">
+  menu:
+    Home: main.html
+    Archives: archives/
+  widgets:
+   - about
+   - category
+   - archive
+   - recent_posts
+   - tag
+  about_widget_content: >
+    <p>Salaam Swipe: Changing the way we meet one another.</p>
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
