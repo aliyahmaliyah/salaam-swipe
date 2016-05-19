@@ -1,0 +1,304 @@
+/*p{*/
+/*    padding-bottom: 50px;*/
+/*    font-size: 1.25em;*/
+/*}*/
+
+body {
+    padding-top: 25px;
+}
+
+
+/*Navigation*/
+.navbar {
+    background-color: #db2127;
+    border-bottom: 1px solid #b9b9b9;
+}
+.navbar a{
+    color: #ffffff !important;
+    font-family: Helvetica;
+}
+.navbar a:hover{
+    color: white !important;
+    background-color: #148682 !important;
+}
+.navbar-brand{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.navbar-default .nav li.active a{
+    background-color: #148682 !important;
+}
+
+/*Header*/
+.header{
+    padding: 140px 0 60px 0;
+    background: url(../images/App_image_5_female_no_text.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    border-bottom: 2px solid #b9b9b9;
+    text-align: center;
+}
+.header h1{
+    color: white;
+    font-family: Helvetica;
+}
+
+.header h2{
+    font-family: 'Raleway', Helvetica;
+    font-size: 5em;
+    color: white;
+    font-weight: 700;
+}
+.header h3{
+    font-family: 'Raleway', Helvetica;
+    font-size: 3em;
+    color: white;
+    font-weight: 400;
+}
+.header h4{
+     font-family: 'Raleway', Helvetica;
+    font-size: 2.25em;
+    color: white;
+    font-weight: 400;
+}  
+
+.appStoreImg{
+    text-align: center
+}
+.btn-default{
+    border: none;
+    background-color: transparent;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+.btn-default:hover{
+    background-color: transparent;
+}
+.app-store-img{
+    width: 50%;
+    height: 50%;
+}
+.motto {
+    border-top: 2px solid white;
+    /*border-bottom: 2px solid white;*/
+}
+@media (max-width:768px){
+    .header{
+        text-align: center;
+        padding-top: 20%;
+    }
+    .header h2{
+        font-size: 3em;
+    }
+    .header h3{
+       font-size: 2em; 
+    }
+    .header h4{
+        font-size: 1.5em;
+    }
+}
+/*the App*/
+.theApp{
+    padding: 100px 0 100px;
+    font-family: Helvetica;
+    min-height: 100vh;
+    
+}
+.theApp h1{
+    font-size: 2.5em;
+    text-align: center;
+    padding: 0 0 25px 0;
+    
+}
+.theApp p{
+    padding-bottom: 50px;
+    font-size: 1.25em;
+}
+.testimonials p{
+    font-size: 0.8em;
+    color: #b9b9b9;
+}
+
+.testimonials .torontoStar{
+    width: 250px;
+    margin-top: 20px
+}
+.testimonials .IBT  {
+    width: 150px;
+}
+.testimonials .arabiya{
+    height: 150px;
+}
+
+/*News*/
+
+.news{
+    padding: 100px 0 100px;;
+    background-color: #fafafa;
+    min-height: 100vh;
+    min-width: 100vw;
+    font-family: Helvetica;
+}
+.news h1{
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.news h2{
+    font-size: 1.5em;
+    
+}
+
+.news button {
+    background: #db2127;
+    color: white;
+    font-family: Helvetica;
+    border: #b9b9b9;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+
+.news button:hover{
+    background-color: #148682;
+    color: white;
+}
+a {
+  color: #db2127;
+  text-decoration: none;
+}
+a:hover, a:focus {
+  color: #148682;
+  text-decoration: none;
+}
+.news .postTitle{
+    font-size: 1.5em;
+}
+
+/*Blog*/
+
+article-title{
+    font-family: Helvetica;
+    font-size: 1em;
+    list-style-type: none;
+}
+.news li{
+    
+    
+}
+/*Fine Print*/
+
+.finePrint{
+    padding: 100px 0 100px;;
+    min-height: 100vh;
+    min-width: 100vw;
+    font-family: Helvetica;
+    text-align: center;
+}
+.finePrint h1{
+    font-size: 2.5em;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.finePrint p {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 1.25em;
+}
+.finePrint i {
+    font-size: 10em;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: #db2127;
+   
+}
+/*Terms*/
+.terms{
+    padding: 100px 0 60px 0;
+    font-family: Helvetica;
+}
+.terms a{
+    color: #db2127;
+}
+.terms p{
+    font-size: 1em;
+    padding-bottom: 0;
+}
+
+/*Privacy*/
+
+.privacy{
+    padding: 100px 0 60px 0;
+    font-family: Helvetica;
+}
+.privacy a{
+    color: #db2127;
+}
+.privacy p{
+    font-size: 1em;
+    padding-bottom: 0;
+}
+
+/*Contact*/
+.contact i{
+    color: #db2127;
+}
+.contact{
+    padding: 100px 0 100px;;
+    min-height: 100vh;
+    min-width: 100vw;
+    font-family: Helvetica;
+    background: #fafafa;
+}
+.contact h1{
+    font-size: 2.5em;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.contact p {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 1.25em;
+}
+.contact .btn{
+    background: #db2127;
+    color: white;
+    font-family: Helvetica;
+    border: #b9b9b9;
+    padding-bottom: -200px;
+}
+.contact .btn-default{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/*Footer*/
+.footer{
+    background: #db2127;
+    color: white;
+    padding: 20px 0 20px;
+    text-align: center;
+}
+.footer img{
+    width: 30vh;
+    padding-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer h1{
+    font-size: 1.5em;
+}
+.footer p{
+    font-size: .9em;
+}
+.footer a {
+    font-size: 1em;
+    color: white;
+    text-align: center;
+}
+
