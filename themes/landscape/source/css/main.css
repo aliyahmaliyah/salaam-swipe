@@ -1,12 +1,15 @@
-/*p{*/
-/*    padding-bottom: 50px;*/
-/*    font-size: 1.25em;*/
-/*}*/
 
 body {
     padding-top: 25px;
 }
-
+a {
+  color: #db2127;
+  text-decoration: none;
+}
+a:hover, a:focus {
+  color: #148682;
+  text-decoration: none;
+}
 
 /*Navigation*/
 .navbar {
@@ -61,7 +64,7 @@ body {
     font-size: 2.25em;
     color: white;
     font-weight: 400;
-}  
+}
 
 .appStoreImg{
     text-align: center
@@ -92,7 +95,7 @@ body {
         font-size: 3em;
     }
     .header h3{
-       font-size: 2em; 
+       font-size: 2em;
     }
     .header h4{
         font-size: 1.5em;
@@ -103,13 +106,13 @@ body {
     padding: 100px 0 100px;
     font-family: Helvetica;
     min-height: 100vh;
-    
+
 }
 .theApp h1{
     font-size: 2.5em;
     text-align: center;
     padding: 0 0 25px 0;
-    
+
 }
 .theApp p{
     padding-bottom: 50px;
@@ -136,7 +139,7 @@ body {
 .news{
     padding: 100px 0 100px;;
     background-color: #fafafa;
-    min-height: 100vh;
+    min-height: 75vh;
     min-width: 100vw;
     font-family: Helvetica;
 }
@@ -147,7 +150,7 @@ body {
 
 .news h2{
     font-size: 1.5em;
-    
+
 }
 
 .news button {
@@ -159,35 +162,29 @@ body {
     padding-bottom: 10px;
     padding-left: 30px;
     padding-right: 30px;
-    
+
 }
 
 .news button:hover{
     background-color: #148682;
     color: white;
 }
-a {
-  color: #db2127;
-  text-decoration: none;
-}
-a:hover, a:focus {
-  color: #148682;
-  text-decoration: none;
-}
+
 .news .postTitle{
     font-size: 1.5em;
+    text-decoration: underline;
+    font-family: 'Raleway', Helvetica;
+}
+.news p {
+  font-size: 1em;
+  padding-bottom: 10px;
 }
 
-/*Blog*/
-
-article-title{
-    font-family: Helvetica;
-    font-size: 1em;
-    list-style-type: none;
-}
-.news li{
-    
-    
+.news img{
+  height: 150px;
+  float: left;
+  padding-right: 10px;
+  padding-bottom: 10px;
 }
 /*Fine Print*/
 
@@ -213,7 +210,7 @@ article-title{
     padding-bottom: 20px;
     padding-top: 20px;
     color: #db2127;
-   
+
 }
 /*Terms*/
 .terms{
@@ -302,3 +299,88 @@ article-title{
     text-align: center;
 }
 
+/*News list page*/
+.newsListPage{
+  font-family: Helvetica;
+  margin-top: 10px;
+  border: #ffffff 10px solid;
+}
+
+.newsListPage h1{
+  text-align: center;
+}
+
+.newsListPage .postTitle{
+  font-family: 'Raleway', Helvetica;
+}
+.newsListPage li{
+  list-style-type: none;
+  border-bottom: black;
+  padding-bottom: 10px;
+}
+
+.newsListPage img{
+  height: 100px;
+  float: left;
+  padding-right: 10px;
+}
+
+
+/*Blog*/
+.article{
+  padding-top: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 25px;
+}
+.article h1{
+    font-family:'Raleway', Helvetica;
+    font-size: 3em;
+    list-style-type: none;
+}
+.article img {
+  height: 250px;
+  float: left;
+  margin-right: 10px
+}
+.article-share-link{
+  font-weight: bold;
+}
+
+.article-tag-list {
+  padding: 0;
+}
+.article-tag-list li{
+  list-style-type: none;
+  display: inline;
+  padding-right: 5px;
+}
+
+/*Archive Page*/
+
+.archives {
+  height: 100vh;
+  width: 100vw;
+}
+.archives-wrap {
+  padding-top: 30px;
+  padding-left: 10px;
+  padding right: 10px;
+}
+
+.archive-year-wrap{
+  font-weight: bold;
+  padding-bottom: 15px;
+  font-size: 1.25em;
+}
+
+.archive-article-date{
+  padding-bottom: 0;
+}
+
+.archives h1 {
+  font-family: 'Raleway', Helvetica;
+  text-decoration: underline;
+  font-size: 2em;
+  line-height: .75;
+}

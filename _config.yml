@@ -7,8 +7,8 @@ title: Salaam Swipe
 subtitle:
 description:
 author: Salaam Swipe
-language: en
-timezone:
+language:
+timezone: America/Los_Angeles
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -53,7 +53,7 @@ tag_map:
 ## You can customize the date format as defined in
 ## http://momentjs.com/docs/#/displaying/format/
 date_format: YYYY-MM-DD
-time_format: HH:mm:ss
+time_format: HH:mm
 
 # Pagination
 ## Set per_page to 0 to disable pagination
