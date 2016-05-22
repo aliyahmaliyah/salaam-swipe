@@ -108,6 +108,10 @@ a:hover, a:focus {
     min-height: 100vh;
 
 }
+
+.theApp .appIntro{
+    padding-bottom: 50px;
+}
 .theApp h1{
     font-size: 2.5em;
     text-align: center;
@@ -117,6 +121,9 @@ a:hover, a:focus {
 .theApp p{
     padding-bottom: 50px;
     font-size: 1.25em;
+}
+.testimonials {
+    padding-top: 50px;
 }
 .testimonials p{
     font-size: 0.8em;
@@ -139,7 +146,7 @@ a:hover, a:focus {
 .news{
     padding: 100px 0 100px;;
     background-color: #fafafa;
-    min-height: 75vh;
+    min-height: 100vh;
     min-width: 100vw;
     font-family: Helvetica;
 }
@@ -189,8 +196,8 @@ a:hover, a:focus {
 /*Fine Print*/
 
 .finePrint{
-    padding: 100px 0 100px;;
-    min-height: 100vh;
+    padding: 75px 0 50px;;
+    min-height: 75vh;
     min-width: 100vw;
     font-family: Helvetica;
     text-align: center;
@@ -224,6 +231,7 @@ a:hover, a:focus {
     font-size: 1em;
     padding-bottom: 0;
 }
+
 
 /*Privacy*/
 
@@ -299,6 +307,44 @@ a:hover, a:focus {
     text-align: center;
 }
 
+#mc_embed{
+    background:clear; 
+    /*clear:left; */
+    font:14px Helvetica,Arial,sans-serif; 
+}
+
+label {
+    padding-right: 5px;
+}
+#mc_embed .button{
+    background: #db2127;
+    color: white;
+}
+#mc_embed .button:hover{
+    background: #148682;
+    color: white;
+}
+#mc_embed form{
+    text-align: center !important;
+}
+
+#mc_embed input .email{
+    display: initial;
+}
+
+#mc_embed input.email {
+    font-family:"Open Sans","Helvetica Neue",Arial,Helvetica,Verdana,sans-serif; 
+    font-size: 15px; 
+    padding:0 0.4em; 
+    margin:0 4% 10px 0; 
+    min-height:32px; 
+    width:58%; 
+    min-width:130px; 
+    -webkit-border-radius: 3px; 
+    -moz-border-radius: 3px; 
+    border-radius: 3px;
+    color: #666d6d;
+}
 /*News list page*/
 .newsListPage{
   font-family: Helvetica;
@@ -310,12 +356,22 @@ a:hover, a:focus {
   text-align: center;
 }
 
+.newsListPage h2 {
+    font-size: 1.25em;
+}
+.newsListPage h2 a{
+    font-size: 1.5em;
+}
+
 .newsListPage .postTitle{
   font-family: 'Raleway', Helvetica;
 }
+
+/*.newsListPage ul{*/
+/*    border-bottom: 1px solid black;*/
+/*}*/
 .newsListPage li{
   list-style-type: none;
-  border-bottom: black;
   padding-bottom: 10px;
 }
 
@@ -359,13 +415,13 @@ a:hover, a:focus {
 /*Archive Page*/
 
 .archives {
-  height: 100vh;
+  height: 55vh;
   width: 100vw;
 }
 .archives-wrap {
   padding-top: 30px;
   padding-left: 10px;
-  padding right: 10px;
+  padding-right: 10px;
 }
 
 .archive-year-wrap{
