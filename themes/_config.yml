@@ -68,7 +68,4 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: git@github.com:Salaam-Swipe/salaam-swipe.github.io
-  branch: master
-  message: 5-26-16
+  type:

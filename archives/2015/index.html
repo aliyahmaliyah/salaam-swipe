@@ -6,34 +6,26 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <%
-  var title = page.title;
+  
+  <title>Archives: 2015 | Salaam Swipe</title>
 
-  if (is_archive()){
-    title = __('archive_a');
-
-    if (is_month()){
-      title += ': ' + page.year + '/' + page.month;
-    } else if (is_year()){
-      title += ': ' + page.year;
-    }
-  } else if (is_category()){
-    title = __('category') + ': ' + page.category;
-  } else if (is_tag()){
-    title = __('tag') + ': ' + page.tag;
-  }
-  %>
-  <title><% if (title){ %><%= title %> | <% } %><%= config.title %></title>
-
-  <%- open_graph({twitter_id: theme.twitter, google_plus: theme.google_plus, fb_admins: theme.fb_admins, fb_app_id: theme.fb_app_id}) %>
+  <meta name="description">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Salaam Swipe">
+<meta property="og:url" content="http://salaamswipe.com/archives/2015/index.html">
+<meta property="og:site_name" content="Salaam Swipe">
+<meta property="og:description">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Salaam Swipe">
+<meta name="twitter:description">
   
   <!-- CSS -->
-  <%- css('css/bootstrap') %>
-  <%- css('css/main') %>
+  <link rel="stylesheet" href="/css/bootstrap.css">
+  <link rel="stylesheet" href="/css/main.css">
   <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
-  <%- css('css/animate.min') %>
+  <link rel="stylesheet" href="/css/animate.min.css">
   <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
   <style type="text/css"></style>
   
@@ -59,17 +51,52 @@
       </div>
       <div class='navbar-collapse collapse'>
         <ul class='nav navbar-nav navbar-right'>
-          <li><a href='http://salaamswipe.com#app'>The App</a></li>
-          <li><a href='http://salaamswipe.com#news'>News</a></li>
-          <li><a href='http://salaamswipe.com#finePrint'>Fine Print</a></li>
-          <li><a href='http://salaamswipe.com#contact'>Contact</a></li>
+          <li><a href='#app'>The App</a></li>
+          <li><a href='#news'>News</a></li>
+          <li><a href='#finePrint'>Fine Print</a></li>
+          <li><a href='#contact'>Contact</a></li>
         </ul>
       </div>
     </div>
   </div>
 
   <section class='main'>
-    <%-body%>
+    
+  
+  
+    
+    
+      
+      
+      <section class="archives-wrap">
+        <div class="archive-year-wrap">
+          <a href="/archives/2015" class="archive-year">2015</a>
+        </div>
+        <div class="archives">
+    
+    <article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+      <a href="/2015/08/25/2015-08-25/" class="archive-article-date">
+  <time datetime="2015-08-25T20:47:32.000Z" itemprop="datePublished">Aug 25</time>
+</a>
+      
+  
+    <h1 itemprop="name">
+      <a class="archive-article-title" href="/2015/08/25/2015-08-25/">Salaam Swipe FAQs</a>
+    </h1>
+  
+
+    </header>
+  </div>
+</article>
+  
+  
+    </div></section>
+  
+
+
+
   </section>
 
   <!--Footer-->

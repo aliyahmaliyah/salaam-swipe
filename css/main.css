@@ -160,18 +160,21 @@ a:hover, a:focus {
 
 }
 
-.news .readMore {
+.news button {
     background: #db2127;
     color: white;
     font-family: Helvetica;
     border: #b9b9b9;
-    padding: 10px 30px 10px 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
 
 }
 
-.news .readMore:hover{
-    background-color: #148682 !important;
-    color: white !important;
+.news button:hover{
+    background-color: #148682;
+    color: white;
 }
 
 .news .postTitle{
@@ -390,7 +393,7 @@ label {
     list-style-type: none;
 }
 .article img {
-  width: 250px;
+  height: 250px;
   float: left;
   margin-right: 10px
 }
